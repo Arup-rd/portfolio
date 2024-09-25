@@ -1,9 +1,22 @@
+"use client"
+
 import { projects } from "@/app/data";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
 
 const RecentProjects = () => {
+
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+      setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+      return null; // or a loading spinner
+  }
+
     return (
         <div className="py-20" id="projects">
             <h1 className="heading">

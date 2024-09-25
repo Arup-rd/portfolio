@@ -7,8 +7,8 @@ export const Clients = () => {
     return (
         <div className="py-20" id="projects">
             <h1 className="heading">
-                Kind Words from {' '}
-                <span className="text-purple">Satisfied Clients</span>
+                Kind Words & {' '}
+                <span className="text-purple">Recomandations</span>
             </h1>
             <div className="flex flex-col items-center max-lg:mt-10">
                 <InfiniteMovingCards
@@ -19,7 +19,7 @@ export const Clients = () => {
                 <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
                     {
                         companies.map(({id,img,name,nameImg})=> (
-                            <div className="flex md:max-w-60 max-w-32 gap-2">
+                            <div key={id} className="flex md:max-w-60 max-w-32 gap-2">
                                 <img
                                     src={img}
                                     alt= {name}

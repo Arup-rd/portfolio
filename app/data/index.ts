@@ -107,9 +107,9 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "I highly recommend Arup for his exceptional work as a Software Engineer at Authlab Limited. He played a key role in developing Fluent Form, a popular WordPress plugin, and showcased his skills in Vue.js, React.js, and Laravel by implementing form and table generation features for different plugins. Arup's dedication to delivering secure and efficient solutions, along with his commitment to maintaining high code quality, make him a valuable asset to any team. I am confident he will continue to excel in his future endeavors.",
+      name: "Shuvojiit Kar",
+      title: "Software Engineer, CHECK24",
     },
     {
       quote:
