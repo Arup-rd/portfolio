@@ -1,7 +1,8 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Work Experience", link: "#Experience" },
+    { name: "Testimonials", link: "#Clients" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -110,28 +111,25 @@ export const navItems = [
         "I highly recommend Arup for his exceptional work as a Software Engineer at Authlab Limited. He played a key role in developing Fluent Form, a popular WordPress plugin, and showcased his skills in Vue.js, React.js, and Laravel by implementing form and table generation features for different plugins. Arup's dedication to delivering secure and efficient solutions, along with his commitment to maintaining high code quality, make him a valuable asset to any team. I am confident he will continue to excel in his future endeavors.",
       name: "Shuvojiit Kar",
       title: "Software Engineer, CHECK24",
+      img: "https://i.ibb.co/y80yMsS/271904305-4906364456091499-1202708555265367500-n.jpg"
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "I rarely come across real talents who stand out like Arup. I had the pleasure of working with Arup for four years at my University as well as in professional life, collaborating on several project teams. Arup's ability to handle multiple projects was unlike any I’ve seen before and made a dramatic difference with others in terms of quality and way of work. No matter how tense a situation was, Arup made sure everyone left with a smile. He is the kind of person whose presence inspired others to cultivate a 'get go' mindset in the team. As a team member or a leader, Arup earns my highest recommendation.",
+      name: "Utpal Deb Nath",
+      title: "Lead Developer at Manage Ninja LLC",
+      img: 'https://i.ibb.co/8M1Qvjh/441889691-7761081377286226-6966277355560132781-n.jpg'
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "As a developer, He is so professional. I worked with him for a long time. That was an absolute pleasure to work with him. I am highly recommended him for frontend development",
+      name: "Nihar Das",
+      title: "Software Engineer at Awesome Motive",
+      img: "https://i.ibb.co/pzfRJK6/1718694747059.jpg"
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Collaborating with Arup was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arup's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
@@ -173,29 +171,33 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Software Developer",
+      companyName: 'WP Manageninja LLC, Delwar, USA',
+      desc: "Spearheaded the optimization of form rendering using Vue.js, React.js, and Laravel for the wordpress plugins, enhancing the experience for over 200,000 active users.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "https://i.ibb.co/YLGdZbj/cropped-wpmanageninja-logo-icon-1-1.webp" ,
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      title: "Software Developer",
+      companyName: 'Kilagbe XYZ, Bangladesh',
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "https://i.ibb.co/L6S6F78/96253692-2bda-4b7b-a011-f4eb78d55b6b.jpg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Postgraduate Degree in Software Engineering",
+      companyName: 'Red Deer, Alberta, Canada',
+      desc: "Developed a comprehensive understanding of system design principles, architecture frameworks, and integration strategies. The program equipped me with skills in analyzing system requirements, optimizing performance, and implementing scalable solutions across various platforms.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: "https://i.ibb.co/tXw2P84/Red-deer.jpg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Bachelor of Engineering in Computer Science",
+      companyName: 'Metropolitan University, Bangladesh',
+      desc: "Acquired the knowledge and skills necessary to design, develop, and optimize software and hardware systems, with a strong foundation in programming, algorithms, data structures, and problem-solving methodologies",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -205,10 +207,6 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
     },
     {
       id: 3,

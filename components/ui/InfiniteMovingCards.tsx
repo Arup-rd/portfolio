@@ -14,6 +14,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    img: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -87,7 +88,7 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[90vw] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
+            className="w-[90vw] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw] lg:w-[60vw]"
             style={{
               background: "rgb(4,7,29)",
               backgroundColor:
@@ -105,22 +106,23 @@ export const InfiniteMovingCards = ({
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
-                  <div className="me-3">
-                     <img 
-                        src="/profile.svg"
-                        alt="profile"
-                     />
-                  </div>
-                 <div className="flex flex-col gap-1">
-                    <span className=" text-xl leading-[1.6] text-white font-bold">
-                        {item.name}
-                      </span>
-                      <span className=" text-sm leading-[1.6] text-white-200 font-normal">
-                        {item.title}
-                      </span>
-                 </div>
+                    <div className="me-3">
+                        <img 
+                            src={item.img ? item.img : "/profile.svg"}
+                            alt="profile"
+                            className="w-12 h-12 rounded-full object-cover" // Increased size here
+                        />
+                    </div>
+                    <div className="flex flex-col gap-1">
+                        <span className="text-xl leading-[1.6] text-white font-bold">
+                            {item.name}
+                        </span>
+                        <span className="text-sm leading-[1.6] text-white-200 font-normal">
+                            {item.title}
+                        </span>
+                    </div>
                 </span>
-              </div>
+            </div>
             </blockquote>
           </li>
         ))}

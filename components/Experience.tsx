@@ -4,10 +4,10 @@ import { Button } from "./ui/MovingBorder";
 
 export const Experience = () => {
     return (
-        <div className="py-20" id="projects">
+        <div className="py-20" id="experience">
             <h1 className="heading">
                 My {' '}
-                <span className="text-purple">Work Experience</span>
+                <span className="text-purple">Work Experience & Education</span>
             </h1>
             <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
                 {workExperience.map(card => 
@@ -21,13 +21,16 @@ export const Experience = () => {
                             <img
                                 src={card.thumbnail}
                                 alt={card.thumbnail}
-                                className="lg:w-32 md:w-20 w-16"
+                                className="lg:w-32 md:w-20 w-16 rounded-full"
                             />
                             <div className="lg:ms-5">
                                 <h1 className="text-start text-xl md:text-2xl font-bold">
                                    {card.title} 
                                 </h1>
-                                <p className="text-start text-white-100 md-3 font-semibold">
+                                <h2 className="text-start text-xl md:text-sm mt-2 text-purple">
+                                   {card.companyName} 
+                                </h2>
+                                <p className="text-start text-white-100 md-3 font-semibold mt-5">
                                     {card.desc}
                                 </p>
                             </div>
