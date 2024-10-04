@@ -73,11 +73,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      title: "Amazon Clone",
+      des: "Created and constructed a web application resembling Amazon using Next js, React js, Tailwind css, Firestore, Firebase, NextAuth, starting from the ground up, for my final year project submission of college.",
+      img: "https://i.ibb.co/5RXCmR6/amzn.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      link: "https://amazon-clone-1-0-kappa.vercel.app/",
     },
     {
       id: 2,
