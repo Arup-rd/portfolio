@@ -21,11 +21,15 @@ function Hero() {
                     Hello World
                 </h2>
                 <TextGenerateEffect 
-                    className='text-center text-[40px] md:text-5xl lg:text-6xl' 
-                    words='Transforming concepts into seemless User Experience'
+                    className='text-center text-[40px] md:text-5xl lg:text-6xl sm:text-5xl' 
+                    words='Hi, I&apos;m Arup Roton Dhar'
                     />
-                <p className='text-center md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi, I&apos;m Arup, Software Engineer based in Vanvouver, Canada.
+                  <TextGenerateEffect 
+                    className='text-center text-[35px] md:text-4xl lg:text-5xl sm:text-3xl' 
+                    words='Software Engineer based in Vanvouver, Canada.'
+                    />
+                <p className='text-center md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl sm:mb-3'>
+                    Let&apos;s transform an Idea into reality
                 </p>
                 <a href='#about'>
                     <MagicButton 
