@@ -25,13 +25,13 @@ function Hero() {
                     words='Hi, I&apos;m Arup Roton Dhar'
                     />
                   <TextGenerateEffect 
-                    className='text-center text-[35px] md:text-4xl lg:text-5xl sm:text-3xl' 
+                    className='text-center text-[3px] md:text-4xl lg:text-5xl sm:text-3xl' 
                     words='Software Engineer based in Vanvouver, Canada.'
                     />
                 <p className='text-center md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl sm:mb-3'>
-                    Let&apos;s transform an Idea into reality
+                    Let&apos;s transform an idea into reality
                 </p>
-                <a href='#about'>
+                <a href='#projects'>
                     <MagicButton 
                         title='Show My Work'
                         icon = {<FaLocationArrow/>}
